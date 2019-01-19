@@ -1,3 +1,4 @@
+
 # 1. 개발환경 구축하기
 ## 아나콘다 설치
 ### 아나콘다
@@ -6,3 +7,36 @@ Continuum Analytics에서 제작한 파이썬 배포판. 다양한 파이썬 패
 >현재 아나콘다 홈페이지에는 최신 파이썬 버전인 python 3.7 버전의 설치 파일을 제공하고 있다. 다른 버전의 파이썬을 깔고 싶다면, 설치한 후에 다음 명령어를 실행하면 된다. [[공식홈페이지 링크]](http://docs.anaconda.com/anaconda/user-guide/faq/#how-do-i-get-the-latest-anaconda-with-python-3-5)
 
 	conda install python={version}
+	
+
+## 새 가상환경 생성 (w. anaconda)
+
+	conda create -n "{venv_name}" python=3 anaconda
+
+anaconda를 같이 설치해주어야 jupyter notebook을 사용할 때, 가상환경의 파이썬을 사용할 수 있음
+
+### 가상환경 삭제
+	conda remote -n "{venv_name}" --all 
+
+### 가상환경 활성화
+	source activate {venv_name}
+
+### 가상환경 비활성화
+	source deactivate
+
+### 가상환경 목록 확인
+	conda info --envs
+
+### 생성한 가상환경에 패키지 추가 설치
+	conda install -n "{venv_name}" {packages..}
+
+***
+# *. 주요 텐서플로우 함수i
+* tf.argmax(): 텐서에서 제일 큰 값의 인덱스를 반환
+
+***
+# *. 용어 정리
+* batch : 한 번에 처리하는 데이터의 수
+* label : y값, 결과값
+* epoch : 학습 데이터 전체를 가지고 한 번의 학습을 완료했을 때, 한 세대를 의미.
+* axis : 중심선
