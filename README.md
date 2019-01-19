@@ -6,8 +6,11 @@ Continuum Analytics에서 제작한 파이썬 배포판. 다양한 파이썬 패
 
 >현재 아나콘다 홈페이지에는 최신 파이썬 버전인 python 3.7 버전의 설치 파일을 제공하고 있다. 다른 버전의 파이썬을 깔고 싶다면, 설치한 후에 다음 명령어를 실행하면 된다. [[공식홈페이지 링크]](http://docs.anaconda.com/anaconda/user-guide/faq/#how-do-i-get-the-latest-anaconda-with-python-3-5)
 
+>python 3.7이 설치된 상태에서 virtual env를 생성한 후 tensorflow를 설치하려고 하니 알아서 python 버전을 내려주었다.
+
 	conda install python={version}
 	
+
 
 ## 새 가상환경 생성 (w. anaconda)
 
