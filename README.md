@@ -33,6 +33,8 @@ anaconda를 같이 설치해주어야 jupyter notebook을 사용할 때, 가상�
 ***
 # *. 주요 텐서플로우 함수i
 * tf.argmax(): 텐서에서 제일 큰 값의 인덱스를 반환
+* tf.truncated_normal(): 평균이 0에 가깝고, 값이 0에 가까운 정규분포에서 난수 선택
+* tf.random_normal(): 평균이 0에 가까운 정규분포에서 난수 선택
 
 ***
 # *. 용어 정리
@@ -40,3 +42,4 @@ anaconda를 같이 설치해주어야 jupyter notebook을 사용할 때, 가상�
 * label : y값, 결과값
 * epoch : 학습 데이터 전체를 가지고 한 번의 학습을 완료했을 때, 한 세대를 의미.
 * axis : 중심선
+* optimizer : cost 함수의 최솟값을 찾는 알고리즘
