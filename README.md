@@ -51,6 +51,7 @@ anaconda를 같이 설치해주어야 jupyter notebook을 사용할 때, 가상�
 
 ***
 # 3. Overfitting
+데이터를 지나치게 학습해서 학습한 데이터에 대해서만 정답을 잘 도출하고, 다른 데이터를 넣으면 정답을 맞추지 못하는 현상.
 * 참고링크 : [과적합 풀어서 보기](https://hyperdot.wordpress.com/2017/02/06/%EA%B3%BC%EC%A0%81%ED%95%A9overfitting/)
 
 ***
