@@ -55,8 +55,9 @@ anaconda를 같이 설치해주어야 jupyter notebook을 사용할 때, 가상�
 * 참고링크 : [과적합 풀어서 보기](https://hyperdot.wordpress.com/2017/02/06/%EA%B3%BC%EC%A0%81%ED%95%A9overfitting/)
 
 ***
-#4. One-hot encoding
+# 4. One-hot encoding
 표현하고자 하는 값의 인덱스만 1로 하고 나머지는 모두 0으로 하는 데이터 표현방식. 
+
 ## 장점
 * 각각으로 분류되는 데이터를 가중치 없이 표현하기에 좋음
 
