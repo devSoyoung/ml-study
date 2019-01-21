@@ -32,6 +32,25 @@ anaconda를 같이 설치해주어야 jupyter notebook을 사용할 때, 가상�
 
 ### 생성한 가상환경에 패키지 추가 설치
 	conda install -n "{venv_name}" {packages..}
+	
+# 2. Hyperparameter
+신경망 학습을 통해 최적화되는 변수(편향, 가중치)가 아니라 학습진도율, 일반화 변수처럼 경험적 지식으로 설정을 하거나 외부 모델 메커니즘을 통해 자동 설정되는 변수. meta parameter, free parameter라고도 한다.
+
+* Learning rate
+* Cost function
+* Regularization parameter
+* Mini batch size
+* Training iteration count
+* Hidden unit
+* Weight initialization
+
+어떤 값이 최적인지는 아직 밝혀진바가 없으며, 다양한 시도를 통해 적절한 값을 찾아야함.
+
+* 참고링크 : [최적의 하이퍼파라미터 값 찾는 방법](https://m.blog.naver.com/laonple/220576650094)
+
+
+# 3. Overfitting
+* 참고링크 : [과적합 풀어서 보기](https://hyperdot.wordpress.com/2017/02/06/%EA%B3%BC%EC%A0%81%ED%95%A9overfitting/)
 
 ***
 # *. 주요 텐서플로우 함수i
