@@ -56,6 +56,7 @@ anaconda를 같이 설치해주어야 jupyter notebook을 사용할 때, 가상�
 ***
 # Amazon SageMaker 자동 모델 튜닝 기능
 최적의 하이퍼파라미터를 찾기 위해서 노가다를 하던 중 발견. 공부해서 적용해야겠다. 노가다 너무 힘들어..
+* 참고링크 : [Amazon SageMaker 자동 모델 튜닝 기능 출시 - 기계학습을 위한 인공지능](https://aws.amazon.com/ko/blogs/korea/sagemaker-automatic-model-tuning/)
 
 ***
 # *. 주요 텐서플로우 함수i
