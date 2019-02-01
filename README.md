@@ -9,8 +9,8 @@ Continuum Analytics에서 제작한 파이썬 배포판. 다양한 파이썬 패
 >python 3.7이 설치된 상태에서 virtual env를 생성한 후 tensorflow를 설치하려고 하니 알아서 python 버전을 내려주었다.
 
 	conda install python={version}
-	
 
+텐서플로우는 패키지들 버전에 민감(버전이 다르면 안 돌아가는 예민한 친구;)하기 때문에 아나콘다로 가상환경을 만들어서 텐서플로우 전용 환경을 구축해주자.
 
 ## 새 가상환경 생성 (w. anaconda)
 
