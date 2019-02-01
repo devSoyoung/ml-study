@@ -54,6 +54,10 @@ anaconda를 같이 설치해주어야 jupyter notebook을 사용할 때, 가상�
 데이터를 지나치게 학습해서 학습한 데이터에 대해서만 정답을 잘 도출하고, 다른 데이터를 넣으면 정답을 맞추지 못하는 현상.
 * 참고링크 : [과적합 풀어서 보기](https://hyperdot.wordpress.com/2017/02/06/%EA%B3%BC%EC%A0%81%ED%95%A9overfitting/)
 
+## 해결방법
+1. 레이어에 dropout 적용
+2. 너무 많이 학습하지 않는다..
+
 ***
 # 4. One-hot encoding
 표현하고자 하는 값의 인덱스만 1로 하고 나머지는 모두 0으로 하는 데이터 표현방식. 
@@ -80,11 +84,12 @@ anaconda를 같이 설치해주어야 jupyter notebook을 사용할 때, 가상�
 * tf.argmax(): 텐서에서 제일 큰 값의 인덱스를 반환
 * tf.truncated_normal(): 평균이 0에 가깝고, 값이 0에 가까운 정규분포에서 난수 선택
 * tf.random_normal(): 평균이 0에 가까운 정규분포에서 난수 선택
+* tf.keras.he_normal():
 
 ***
 # *. 용어 정리
-* batch : 한 번에 처리하는 데이터의 수
+* batch : 한 번에 학습하는 데이터의 수
 * label : y값, 결과값
-* epoch : 학습 데이터 전체를 가지고 한 번의 학습을 완료했을 때, 한 세대를 의미.
+* epoch : 학습 데이터 **전체**를 가지고 한 번의 학습을 완료했을 때, 한 세대를 의미.
 * axis : 중심선
 * optimizer : cost 함수의 최솟값을 찾는 알고리즘
